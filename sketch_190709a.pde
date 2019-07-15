@@ -413,7 +413,6 @@ class Pair {
     y = yy;
   }
 }
-/* TODO: */
 ArrayList<Location> getNextLocations(Piece piece) {
   PImage image = piece.ima;
   int i,j;
@@ -654,7 +653,7 @@ boolean onStart() {
 void drawButton() {
   int x1,y1,w,h;
   x1 = width - Gwidth + wspace;
-  y1 = locations[1][4].y;
+  y1 = locations[0][3].y;
   w = Gwidth-2*wspace;
   h = 2*interval;
   
